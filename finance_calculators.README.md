@@ -24,7 +24,6 @@ In summary, it is a program that combines investment and home loan calculators p
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- INSTALLATION -->
 ## 2. Installation:
 
 _To get a local copy up and running follow these simple steps._
@@ -40,7 +39,6 @@ _To get a local copy up and running follow these simple steps._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- HOW TO USE -->
 ## 3. How to Use:
 
 The program starts, presenting to the user two options to choose from:
@@ -67,7 +65,6 @@ Output: The program will calculate, and display the total amount that the user w
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CREDITS -->
 ## 4. Credits:
 Project created by **<https://github.com/JulianaRibr>**.
 
@@ -75,7 +72,6 @@ Template of the README.MD based on <https://github.com/othneildrew/Best-README-T
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIMITATION -->
 ## 5. Limitation
 
 This program is for an educational purposes. 
