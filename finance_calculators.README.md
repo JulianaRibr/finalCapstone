@@ -31,6 +31,8 @@ In summary, it is a program that combines investment and home loan calculators p
 
 **-Customization:** The program can offer customizable inputs (i.e. interest rate), allowing users to tailor calculations to their specific scenarios.hit <enter> once
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- INSTALLATION -->
 ## 2. Installation:
 
@@ -47,6 +49,8 @@ _To get a local copy up and running follow these simple steps._
    ```
 4. Enter your API in config.js
 const API_KEY = 'ENTER YOUR API';
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- HOW TO USE -->
 ## 3. How to Use:
@@ -73,12 +77,15 @@ For _**Bond**_ - the value of the house, the interest rate and how many years th
 
 Output: The program will calculate, and display the total amount that the user will have to pay montly.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- CREDITS -->
 ## 4. Credits:
 Project created by **<https://github.com/JulianaRibr>**.
 
 Template based on <https://github.com/othneildrew/Best-README-Template/tree/master>.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIMITATION -->
 ## 5. Limitation
