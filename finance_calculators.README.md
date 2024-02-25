@@ -1,23 +1,27 @@
 **Project name: finance_calculators.py**
+1. [Description](#1-description)
+2. Bla
+3. [How to Use](#3-how-to-use)
 
 **<!-- TABLE OF CONTENTS -->**
 <details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <li><a href="#description">Description</a></li>
+      <a href="#1.-description">Description</a></li>
     <li>
-      <li><a href="#installation">Installation</a></li>
+      <a href="#installation">Installation</a></li>
     <li>
-      <li><a href="#how-to-use">How to Use</a></li>
+      <a href="#how-to-use">How to Use</a></li>
    <li>
-      <li><a href="#credits">Credits</a></li>
+      <a href="#credits">Credits</a></li>
     <li>
-      <li><a href="#limitation">Limitation</a></li>
+      <a href="#limitation">Limitation</a></li>
   </ol>
 </details>
 
 <a name="readme-top"></a>
+
 
 <!-- DESCRIPTION -->
 ## 1. Description: 
