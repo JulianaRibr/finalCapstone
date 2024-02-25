@@ -85,7 +85,7 @@ Output: The program will calculate, and display the total amount that the user w
 ## 4. Credits:
 Project created by **<https://github.com/JulianaRibr>**.
 
-Template based on <https://github.com/othneildrew/Best-README-Template/tree/master>.
+Template of the README.MD based on <https://github.com/othneildrew/Best-README-Template/tree/master>.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
