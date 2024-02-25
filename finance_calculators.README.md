@@ -1,29 +1,14 @@
 **Project name: finance_calculators.py**
+ 
+**SUMMARY**
+  
 1. [Description](#1-description)
-2. Bla
+2. [Installation](#2-installation)
 3. [How to Use](#3-how-to-use)
-
-**<!-- TABLE OF CONTENTS -->**
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#1.-description">Description</a></li>
-    <li>
-      <a href="#installation">Installation</a></li>
-    <li>
-      <a href="#how-to-use">How to Use</a></li>
-   <li>
-      <a href="#credits">Credits</a></li>
-    <li>
-      <a href="#limitation">Limitation</a></li>
-  </ol>
-</details>
-
-<a name="readme-top"></a>
+4. [Credits](#4-credits)
+5. [Limitation](#5-limitation)
 
 
-<!-- DESCRIPTION -->
 ## 1. Description: 
 
 This program allows the user to access two different financial calculators: an investment calculator and a home loan
@@ -44,17 +29,14 @@ In summary, it is a program that combines investment and home loan calculators p
 
 _To get a local copy up and running follow these simple steps._
 
-1. Get a free API Key at https://example.com
-2. Clone the repository:
+1. Clone the repository:
    ```sh
    git clone https://github.com/JulianaRibr/finalCapstone.git
    ```
-3. Import the math module (you don’t need to install anything, once the math module is part of the Python standard library, so it’s available by default):
+2. Run the code:
    ```sh
-   import math
+   python finance_calculators.py
    ```
-4. Enter your API in config.js
-const API_KEY = 'ENTER YOUR API';
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
