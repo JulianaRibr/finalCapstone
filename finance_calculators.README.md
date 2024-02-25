@@ -1,79 +1,86 @@
 **Project name: finance_calculators.py**
 
-**Description:** 
+**<!-- TABLE OF CONTENTS -->**
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#description">Description</a></li>
+    <li>
+      <a href="#installation">Installation</a></li>
+    <li>
+      <a href="#how-to-use">How to Use</a></li>
+   <li>
+      <a href="#credits">Credits</a></li>
+    <li>
+      <a href="#limitation">Limitation</a></li>
+  </ol>
+</details>
+
+<!-- DESCRIPTION -->
+## 1. Description: 
 
 This program allows the user to access two different financial calculators: an investment calculator and a home loan
 repayment calculator.
 
 In summary, it is a program that combines investment and home loan calculators promotes:
 
-**1. Financial literacy:** by empowering users to make informed decisions.
+**-Financial literacy:** by empowering users to make informed decisions.
 
-**2. Time-Saving:** Instead of searching for separate calculators online, users can access both functionalities in one place.
+**-Time-Saving:** Instead of searching for separate calculators online, users can access both functionalities in one place.
 
-**3. Customization:** The program can offer customizable inputs (i.e. interest rate), allowing users to tailor calculations to their specific scenarios.hit <enter> once
+**-Customization:** The program can offer customizable inputs (i.e. interest rate), allowing users to tailor calculations to their specific scenarios.hit <enter> once
 
+<!-- INSTALLATION -->
+## 2. Installation:
 
-**How to Use**
+_To get a local copy up and running follow these simple steps._
+
+1. Get a free API Key at https://example.com
+2. Clone the repository:
+   ```sh
+   git clone https://github.com/JulianaRibr/finalCapstone.git
+   ```
+3. Import the math module (you don’t need to install anything, once the math module is part of the Python standard library, so it’s available by default):
+   ```sh
+   import math
+   ```
+4. Enter your API in config.js
+const API_KEY = 'ENTER YOUR API';
+
+<!-- HOW TO USE -->
+## 3. How to Use:
 
 The program starts, presenting to the user two options to choose from:
 
-**investment** - to calculate the amount of interest you'll earn on your investment
+**investment** - to calculate the amount of interest the user will on his investment.
 
-**bond** - to calculate the amount you'll have to pay on a home loan
+**bond** - to calculate the amount the user have to pay on a home loan.
 
-The user can enter either investment or bond to proceed with the selected calculator. If the user enters an invalid option, an error message is displayed.
+<img width="697" alt="image" src="https://github.com/JulianaRibr/finalCapstone/assets/153245025/314eb336-30bc-49e1-a357-7a7f736cbd72">
 
-                        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-                        ⠀⠀⠀⠀⠀⠀⢯⠙⠩⠀⡇⠊⠽⢖⠆⠀⠀⠀⠀⠀
-                        ⠀⠀⠀⠀⠀⠀⠀⠱⣠⠀⢁⣄⠔⠁⠀⠀⠀⠀⠀⠀
-                        ⠀⠀⠀⠀⠀⠀⠀⠀⣷⣶⣾⣾⠀⠀⠀⠀⠀⠀⠀⠀
-                        ⠀⠀⠀⠀⠀⠀⢀⡔⠙⠈⢱⡟⣧⠀⠀⠀⠀⠀⠀⠀
-                        ⠀⠀⠀⠀⠀⡠⠊⠀⠀⣀⡀⠀⠘⠕⢄⠀⠀⠀⠀⠀
-                        ⠀⠀⠀⢀⠞⠀⠀⢀⣠⣿⣧⣀⠀⠀⢄⠱⡀⠀⠀⠀
-                        ⠀⠀⡰⠃⠀⠀⢠⣿⠿⣿⡟⢿⣷⡄⠀⠑⢜⢆⠀⠀
-                        ⠀⢰⠁⠀⠀⠀⠸⣿⣦⣿⡇⠀⠛⠋⠀⠨⡐⢍⢆⠀
-                        ⠀⡇⠀⠀⠀⠀⠀⠙⠻⣿⣿⣿⣦⡀⠀⢀⠨⡒⠙⡄
-                        ⢠⠁⡀⠀⠀⠀⣤⡀⠀⣿⡇⢈⣿⡷⠀⠠⢕⠢⠁⡇
-                        ⠸⠀⡕⠀⠀⠀⢻⣿⣶⣿⣷⣾⡿⠁⠀⠨⣐⠨⢀⠃
-                        ⠀⠣⣩⠘⠀⠀⠀⠈⠙⣿⡏⠁⠀⢀⠠⢁⡂⢉⠎⠀
-                        ⠀⠀⠈⠓⠬⢀⣀⠀⠀⠈⠀⠀⠀⢐⣬⠴⠒⠁⠀⠀
-                        ⠀⠀⠀⠀⠀⠀⠀⠈⠉⠉⠉⠉⠉⠀⠀⠀⠀⠀⠀⠀
-  _                                      _
- |_  o  ._    _.  ._    _  o   _.  |    /    _.  |   _       |   _.  _|_   _   ._
- |   |  | |  (_|  | |  (_  |  (_|  |    \_  (_|  |  (_  |_|  |  (_|   |_  (_)  |
+After that, the user will input:
+
+For _**investment**_ - the amount of money he/she wants to deposit, the interest rate, how many years he/she plans to invest and the interest type he/she'd like (simple or compound).
+
+<img width="668" alt="image" src="https://github.com/JulianaRibr/finalCapstone/assets/153245025/8057cb74-915d-4422-93bf-9cd90c1ed26f">
+
+Output: The program will calculate, and display the total amount that the user will get back after the given period, based on his inputs.
+
+For _**Bond**_ - the value of the house, the interest rate and how many years the user plans do repay the bond.
+
+<img width="707" alt="image" src="https://github.com/JulianaRibr/finalCapstone/assets/153245025/c08695c1-99ed-4a5d-b8aa-4047fb57be99">
+
+Output: The program will calculate, and display the total amount that the user will have to pay montly.
+
+<!-- CREDITS -->
+## 4. Credits:
+Project created by **<https://github.com/JulianaRibr>**.
+
+Template based on <https://github.com/othneildrew/Best-README-Template/tree/master>.
 
 
-────────────────────────────────────────────────────────────────────────────────────
-investment - to calculate the amount of interest you'll earn on your investment
-bond       - to calculate the amount you'll have to pay on a home loan
-────────────────────────────────────────────────────────────────────────────────────
+<!-- LIMITATION -->
+## 5. Limitation
 
-Enter either 'investment' or 'bond' from the menu above to proceed: investment
-How much money would you like to deposit? 2000
-Enter the interest rate (only number): 8
-How many years do you plan on investing? 10
-Would you like 'simple' or 'compound' interest? simple
-
-------------------------------------------------------------------------------------
-After 10.0 years you will get back 3600.0, at the 8.0% interest rate.
-------------------------------------------------------------------------------------
-Investment Calculator
-If the user selects the investment option, the program will ask for the following inputs:
-
-deposit_amount: the amount of money the user is depositing interest_pct: the interest rate (as a percentage) years_investing: the number of years the user plans on investing interest: whether the user wants "simple" or "compound" interest
-
-Based on the user's inputs, the program will calculate and display the total amount that they will get back after the given period, at the specified interest rate.
-
-Home Loan Repayment Calculator
-If the user selects the bond option, the program will ask for the following inputs:
-
-house_value: the present value of the house interest_pct_bond: the interest rate (as a percentage) months_repay_bond: the number of months the user plans to take to repay the bond
-
-Based on the user's inputs, the program will calculate and display the amount of money the user will have to repay each month.
-
-Error Handling
-If the user enters an invalid input, the program will display an error message and ask the user to try again.
-
-Limitations
-This program is for educational purposes only and should not be used as a substitute for professional financial advice. It also has some limitations, such as not taking into account taxes or fees.
+This program is for an educational purposes. 
