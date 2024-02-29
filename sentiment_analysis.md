@@ -12,15 +12,11 @@
 
 ## 1. Description: 
 
-This program performs sentiment analysis on a dataset of consumor reviews of Amazon products.
+The dataset lists over 34,000 consumer reviews for Amazon products like the Kindle, Fire TV Stick, and more provided by Datafiniti's Product Database. 
 
-In summary, it is a program that combines investment and home loan calculators promotes:
+The dataset includes basic product information, rating, review text, and more for each product.
 
-**-Financial literacy:** by empowering users to make informed decisions.
-
-**-Time-Saving:** Instead of searching for separate calculators online, users can access both functionalities in one place.
-
-**-Customization:** The program can offer customizable inputs (i.e. interest rate), allowing users to tailor calculations to their specific scenarios.hit <enter> once
+Consumer Reviews of Amazon Products (Dataset link):  https://www.kaggle.com/datasets/datafiniti/consumer-reviews-of-amazon-products.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -32,36 +28,28 @@ _To get a local copy up and running follow these simple steps._
    ```sh
    git clone https://github.com/JulianaRibr/finalCapstone.git
    ```
-2. Run the code:
+2. Download the csv file from kagle.com (link on the description).
+3. 
+4. Save the file in the same local folder where you will save the program to be run.
+
+5. Run the code:
    ```sh
-   python finance_calculators.py
+   python sentiment_analysis.py
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 3. How to Use:
 
-The program starts, presenting to the user two options to choose from:
+The program starts, presenting to the user the libraries he'll use.
 
-**investment** - to calculate the amount of interest the user will on his investment.
+shows the functions that will promote data cleaning and review analysis.
 
-**bond** - to calculate the amount the user have to pay on a home loan.
+After reading the data and running the lines of code,  you will obtain the
+percentages relating to positive and negative customer feelings as output. Based on these scores, you can proceed with your analyse.
 
 <img width="697" alt="image" src="https://github.com/JulianaRibr/finalCapstone/assets/153245025/314eb336-30bc-49e1-a357-7a7f736cbd72">
 
-After that, the user will input:
-
-For _**investment**_ - the amount of money he/she wants to deposit, the interest rate, how many years he/she plans to invest and the interest type he/she'd like (simple or compound).
-
-<img width="668" alt="image" src="https://github.com/JulianaRibr/finalCapstone/assets/153245025/8057cb74-915d-4422-93bf-9cd90c1ed26f">
-
-Output: The program will calculate, and display the total amount that the user will get back after the given period, based on his inputs.
-
-For _**Bond**_ - the value of the house, the interest rate and how many years the user plans do repay the bond.
-
-<img width="707" alt="image" src="https://github.com/JulianaRibr/finalCapstone/assets/153245025/c08695c1-99ed-4a5d-b8aa-4047fb57be99">
-
-Output: The program will calculate, and display the total amount that the user will have to pay montly.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,6 +62,14 @@ Template of the README.MD based on <https://github.com/othneildrew/Best-README-T
 
 ## 5. Limitation
 
-This program is for an educational purposes. 
+From what it could be seen, spacy analyses the text by detecting relevant n-grams  and calculating its polarity. 
+
+An n-gram is a collection of n successive items in a text document that may include words, numbers, symbols, and punctuation. 
+N-gram models are useful in many text analytics applications where sequences of words are relevant, such as in sentiment analysis, text classification, and text generation.
+
+The advantage of using n-grams is that we analyse words within a context instead of as separate words.
+
+Still analysing words as n-grams may be susceptible to not correctly describing colloquial expressions in which the words have a different meaning.
+ 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
