@@ -49,10 +49,14 @@ The program starts, presenting to the user the libraries he'll use.
 
 After that shows the functions that will promote data cleaning and review analysis.
 
-![Screenshot of a piece of the code.](https://github.com/JulianaRibr/finalCapstone/assets/153245025/641ac39f-e5ae-49b7-9a4a-bf7497c25876)
+![Screenshot of a piece of the code.](https://github.com/JulianaRibr/finalCapstone/assets/153245025/a0f1102d-86d8-437e-beab-24c29058d534)
 
 After reading the data and running the lines of code,  you will obtain the
-percentages relating to positive and negative customer feelings as output. Based on these scores, you can proceed with your analyse.
+percentages relating to positive and negative customer feelings as output. 
+
+![Screenshot of a piece of the code.](https://github.com/JulianaRibr/finalCapstone/assets/153245025/a0f1102d-86d8-437e-beab-24c29058d534)
+
+Based on these scores, you can proceed with your analyse.
 
 
 
