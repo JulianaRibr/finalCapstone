@@ -55,7 +55,7 @@ After that shows the functions that will promote data cleaning and review analys
 After reading the data and running the lines of code,  you will obtain the
 percentages relating to positive and negative customer feelings as output. 
 
-![Screenshot of a piece of the code.](https://github.com/JulianaRibr/finalCapstone/assets/153245025/10025f33-ff27-4d34-8d58-4c74d84e09d9)
+![Screenshot of a piece of the code.](https://github.com/JulianaRibr/finalCapstone/assets/153245025/15034ed8-be63-46da-bf10-e996a2cc1ea9)
 
 Based on these scores, you can proceed with your analyse.
 
