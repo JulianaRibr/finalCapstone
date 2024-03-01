@@ -18,6 +18,7 @@ The dataset includes basic product information, rating, review text, and more fo
 
 Consumer Reviews of Amazon Products (Dataset link):  https://www.kaggle.com/datasets/datafiniti/consumer-reviews-of-amazon-products.
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 2. Installation:
@@ -37,18 +38,23 @@ _To get a local copy up and running follow these simple steps._
    python sentiment_analysis.py
    ```
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 3. How to Use:
 
 The program starts, presenting to the user the libraries he'll use.
 
-shows the functions that will promote data cleaning and review analysis.
+![Screenshot of a piece of the code.](https://github.com/JulianaRibr/finalCapstone/assets/153245025/641ac39f-e5ae-49b7-9a4a-bf7497c25876)
+
+After that shows the functions that will promote data cleaning and review analysis.
+
+![Screenshot of a piece of the code.](https://github.com/JulianaRibr/finalCapstone/assets/153245025/641ac39f-e5ae-49b7-9a4a-bf7497c25876)
 
 After reading the data and running the lines of code,  you will obtain the
 percentages relating to positive and negative customer feelings as output. Based on these scores, you can proceed with your analyse.
 
-<img width="697" alt="image" src="https://github.com/JulianaRibr/finalCapstone/assets/153245025/314eb336-30bc-49e1-a357-7a7f736cbd72">
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
