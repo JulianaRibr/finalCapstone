@@ -7,6 +7,7 @@
 3. [How to Use](#3-how-to-use)
 4. [Credits](#4-credits)
 5. [Limitation](#5-limitation)
+6. [Additional documents](#6-additional-documents)
 
 <a name="readme-top"></a>
 
@@ -30,10 +31,10 @@ _To get a local copy up and running follow these simple steps._
    git clone https://github.com/JulianaRibr/finalCapstone.git
    ```
 2. Download the csv file from kagle.com (link on the description).
-3. 
-4. Save the file in the same local folder where you will save the program to be run.
+ 
+3. Save the file in the same local folder where you will save the program to be run.
 
-5. Run the code:
+4. Run the code:
    ```sh
    python sentiment_analysis.py
    ```
@@ -54,11 +55,9 @@ After that shows the functions that will promote data cleaning and review analys
 After reading the data and running the lines of code,  you will obtain the
 percentages relating to positive and negative customer feelings as output. 
 
-![Screenshot of a piece of the code.](https://github.com/JulianaRibr/finalCapstone/assets/153245025/a0f1102d-86d8-437e-beab-24c29058d534)
+![Screenshot of a piece of the code.](https://github.com/JulianaRibr/finalCapstone/assets/153245025/10025f33-ff27-4d34-8d58-4c74d84e09d9)
 
 Based on these scores, you can proceed with your analyse.
-
-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -83,3 +82,16 @@ Still analysing words as n-grams may be susceptible to not correctly describing 
  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 6. Additional documents:
+
+**About sPacy:**
+https://spacy.io/
+https://spacy.io/universe/project/spacy-textblob
+
+**About Pandas:**
+https://pandas.pydata.org/
+
+**NLP vs Sentiment Analysis:**
+https://www.ibm.com/topics/sentiment-analysis
